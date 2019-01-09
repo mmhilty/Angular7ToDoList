@@ -1,0 +1,21 @@
+
+<div class="divblock">
+
+  <h1>To Do List</h1>
+  
+  <div class="divbody">
+
+    <ol>
+      <li [ngClass]="item.itemClass" *ngFor="let item of toDoListList, let i = index ">
+        <button [ngClass]= "item.buttonClass" (click)="buttonClicked(i)">DONE</button> 
+        {{item.itemText}}
+        <button (click)=deleteButtonClicked(i) class="deleteButton" >X</button>
+      </li>
+    </ol>
+
+    <p>Need to do anything else?</p>
+    <input  [(ngModel)]="newItem" />
+    <button (click)="addButtonClicked(newItem)" class="buttonClassUndone" >Add Item</button>
+    
+  </div>
+</div>  

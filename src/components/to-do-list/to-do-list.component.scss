@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    align-self: center;
+    font-size: 3em;
+    letter-spacing: .25em;
+    font-variant: small-caps;
+}
+
+li{
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+
+li:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.divblock{
+    border-style: solid;
+    border-color: mediumvioletred;
+    margin: 20px;
+    border-radius: 5%;
+    padding: 50px;
+}
+
+.divbody{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.undoneClass{
+    color: black;
+    
+}
+
+.doneClass{
+    color: lightgreen;
+    text-decoration: line-through;
+}
+
+.buttonClassUndone{
+    font-family: 'Oswald', sans-serif;
+    border-radius: 25%;
+    background-color: rgb(62, 207, 62);
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.buttonClassDone{
+    font-family: 'Oswald', sans-serif;
+    border:none;
+    border-radius: 25%;
+    background-color: lightgreen;
+    padding: 5px;
+    text-align: center;
+    color: yellowgreen;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;}
+
+
+.deleteButton{
+    border: none;
+    border-radius: 10px;
+    padding:5px;
+    float: right;
+}
