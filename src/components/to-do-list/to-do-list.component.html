@@ -14,7 +14,7 @@
     </ol>
 
     <p>Need to do anything else?</p>
-    <input  [(ngModel)]="newItem" />
+    <input (keyup.enter)="addButtonClicked(newItem)" [(ngModel)]="newItem" />
     <button (click)="addButtonClicked(newItem)" class="buttonClassUndone" >Add Item</button>
     
   </div>
